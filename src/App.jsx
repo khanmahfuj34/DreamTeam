@@ -2,6 +2,13 @@
 import './App.css'
 import navImg from "./assets/logo.png"
 import dollerImg from "./assets/dollar 1.png"
+import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
+import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
+
+const fetchPlayers = async () =>{
+  const res = await fetch('/players.json')
+  return res.json
+}
 
 function App() {
   
@@ -18,6 +25,9 @@ function App() {
     <img src={dollerImg} alt="" />
   </div>
 </div>
+
+    <AvailablePlayers></AvailablePlayers>
+    <SelectedPlayers></SelectedPlayers>
     </>
   )
 }

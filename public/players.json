@@ -1,0 +1,118 @@
+[{
+        "id": 1,
+        "name": "Mohammad Naim",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "rating": 8.0,
+        "price": "$91,660",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320400/320405.png"
+    },
+    {
+        "id": 2,
+        "name": "Towhid Hridoy",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "rating": 8.9,
+        "price": "$76,660",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/353400/353441.png"
+    },
+    {
+        "id": 3,
+        "name": "Litton Das",
+        "country": "Bangladesh",
+        "role": "Wicketkeeper",
+        "rating": 8.8,
+        "price": "$58,330",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320100/320150.png"
+    },
+    {
+        "id": 4,
+        "name": "Mustafizur Rahman",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "rating": 9.0,
+        "price": "$66,000",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320100/320138.png"
+    },
+    {
+        "id": 5,
+        "name": "Taskin Ahmed",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "rating": 9.1,
+        "price": "$66,000",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320100/320140.png"
+    },
+    {
+        "id": 6,
+        "name": "Mehidy Hasan Miraz",
+        "country": "Bangladesh",
+        "role": "All-rounder",
+        "rating": 9.2,
+        "price": "$66,000",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/319900/319941.png"
+    },
+    {
+        "id": 7,
+        "name": "Najmul Hossain Shanto",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "rating": 9.1,
+        "price": "$66,000",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316624.png"
+    },
+    {
+        "id": 8,
+        "name": "Nahid Rana",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "rating": 8.3,
+        "price": "$46,660",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/377700/377727.png"
+    },
+    {
+        "id": 9,
+        "name": "Dasun Shanaka",
+        "country": "Sri Lanka",
+        "role": "All-rounder",
+        "rating": 8.4,
+        "price": "$55,000",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/323300/323377.png"
+    },
+    {
+        "id": 10,
+        "name": "Hasan Mahmud",
+        "country": "Bangladesh",
+        "role": "Bowler",
+        "rating": 8.2,
+        "price": "$41,660",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320300/320399.png"
+    },
+    {
+        "id": 11,
+        "name": "Tanzid Hasan Tamim",
+        "country": "Bangladesh",
+        "role": "Batsman",
+        "rating": 8.1,
+        "price": "$41,660",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/366000/366031.png"
+    },
+    {
+        "id": 12,
+        "name": "Jaker Ali Anik",
+        "country": "Bangladesh",
+        "role": "Wicketkeeper",
+        "rating": 8.1,
+        "price": "$29,160",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/377700/377726.png"
+    },
+    {
+        "id": 13,
+        "name": "Mohammad Amir",
+        "country": "Pakistan",
+        "role": "Bowler",
+        "rating": 8.9,
+        "price": "$50,000",
+        "img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/290700/290716.png"
+    }
+]
