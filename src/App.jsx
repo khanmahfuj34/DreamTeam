@@ -4,14 +4,15 @@ import navImg from "./assets/logo.png"
 import dollerImg from "./assets/dollar 1.png"
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
+import { Suspense } from 'react'
 
 const fetchPlayers = async () =>{
   const res = await fetch('/players.json')
-  return res.json
+  return res.json;
 }
 
 function App() {
-  
+  const playersPromise = fetchPlayers()
 
   return (
     <>
@@ -25,8 +26,10 @@ function App() {
     <img src={dollerImg} alt="" />
   </div>
 </div>
-
-    <AvailablePlayers></AvailablePlayers>
+    
+    <Suspense fallback ={<span className="loading loading-spinner loading-md"></span>}>
+      <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+    </Suspense>
     <SelectedPlayers></SelectedPlayers>
     </>
   )
