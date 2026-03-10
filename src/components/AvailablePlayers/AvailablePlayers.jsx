@@ -6,12 +6,12 @@ const AvailablePlayers = ({playersPromise}) => {
     const playerData = use(playersPromise)
     console.log(playerData)
     return (
-        <div className='max-w-[1200px] mx-auto mt-4 p-4 grid sm:grid-cols-2 md:grid-cols-3 '>
+        <div className='max-w-[1200px] mx-auto mt-4 p-4 grid grid-cols-1 md:grid-cols-3 '>
         {
             playerData.map(player=>
-            <div className="card bg-base-100 w-96 shadow-sm p-4">
+            <div className="card bg-base-100  shadow-sm p-4">
   <figure>
-    <img className='rounded-2xl'
+    <img className='rounded-2xl object-cover'
       src={player.img
 }
       alt="Shoes" />
