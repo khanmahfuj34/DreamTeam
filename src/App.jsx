@@ -10,10 +10,12 @@ const fetchPlayers = async () =>{
   const res = await fetch('/players.json')
   return res.json();
 }
+const playersPromise = fetchPlayers()
 
 function App() {
   const [toggle, setToggle] = useState(false)
-  const playersPromise = fetchPlayers()
+  const [availableBalance, setAvailableBalance]= useState(600000)
+  
 
   return (
     <>
@@ -22,7 +24,7 @@ function App() {
     <a className="text-xl"><img className='w-[60px],h-[60px]' src={navImg} alt="" /></a>
   </div>
   <div className="flex items-center">
-    <span className='mr-1 font-bold'>600000000</span>
+    <span className='mr-1 font-bold'>{availableBalance}</span>
     <span className='mr-1 font-bold'> Coin</span>
     <img src={dollerImg} alt="" />
   </div>
@@ -37,7 +39,7 @@ function App() {
     
     {
       toggle === true?<Suspense fallback ={<span className="loading loading-spinner loading-md"></span>}>
-      <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+      <AvailablePlayers availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}></AvailablePlayers>
     </Suspense>:<SelectedPlayers></SelectedPlayers>
     }
     
